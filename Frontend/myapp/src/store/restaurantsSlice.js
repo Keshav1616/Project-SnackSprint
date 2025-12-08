@@ -4,7 +4,7 @@ export const fetchRestaurants = createAsyncThunk(
   'restaurants/fetchRestaurants',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await fetch('https://snacksprint-1.onrender.com') //  PORT 8080
+      const response = await fetch('https://project-snacksprint-1.onrender.com') //  PORT 8080
  
             // const response = await fetch('http://localhost:8080/restaurants') 
 
