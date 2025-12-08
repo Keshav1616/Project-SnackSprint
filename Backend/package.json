@@ -7,9 +7,9 @@
   "type": "commonjs",
   "main": "Backend/server.js",
   "scripts": {
-"start": "node Backend/Server.js",
+"start": "node Backend/server.js",
 
-  "dev": "nodemon Server.js"
+  "dev": "nodemon server.js"
 
   },
   "dependencies": {
