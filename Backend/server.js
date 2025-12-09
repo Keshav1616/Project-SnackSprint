@@ -6,7 +6,7 @@ const port = process.env.PORT || 8080;
 
 
 app.use(express.json())
-app.use(cors());
+app.use(cors("https://frontend-40ww.onrender.com"));
 
 
 const url = 'mongodb+srv://keshavshagun2222:keshavmoney1916@cluster0.66pic1y.mongodb.net/snacksprint'
